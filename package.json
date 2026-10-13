@@ -1,0 +1,14 @@
+{
+  "name": "neslim-gungen-yildirim-flagship",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "preview": "node serve.mjs",
+    "lint": "node --check script.js && node --check build.mjs && node --check serve.mjs && tsc --noEmit",
+    "build": "node build.mjs"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
